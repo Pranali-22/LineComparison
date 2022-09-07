@@ -25,7 +25,7 @@ public class LengthOfLine {
 		double a = Math.pow(x2-x1 , 2);
 		double b = Math.pow(y2-y1 , 2);
 		double length = Math.sqrt(a+b);
-		System.out.println("Lenght of line between points (" +x1+ "," +y1+ ") and (" +x2+ "," +y2+ ") is "+length);
+		System.out.println("Lenght of line between points (" +x1+ "," +y1+ ") and (" +x2+ "," +y2+ ") = "+length);
 
 		sc.close();
 	}
